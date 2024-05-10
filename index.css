@@ -1,0 +1,46 @@
+body {
+    font-family: 'Verdana', sans-serif; /* Set Verdana as the font for the entire body */
+    background-color: #E0F2F1; /* Light blue background similar to other pages */
+    color: #333; /* Standard text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center; /* Center content in the header */
+}
+
+.header-image {
+    width: 50%; /* Make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Provide some spacing at the top */
+    display: block; /* Needed to enable margin auto to work */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto;
+}
+
+h1 {
+    margin: 20px 0; /* Add top and bottom margins to the header */
+}
+
+nav ul {
+    padding: 20px;
+    margin: 20px; /* Spacing around the list */
+    background-color: #fff; /* White background for the list */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    list-style-type: none; /* Removes bullet points from the list */
+}
+
+nav li {
+    margin-bottom: 10px; /* Adds space between the list items */
+}
+
+nav a {
+    text-decoration: none; /* Removes underline from links */
+    color: #2c3e50; /* Sets the text color */
+    font-size: 1.2em; /* Slightly larger text for better readability */
+}
+
+nav a:hover {
+    color: #3498db; /* Change color on hover for a visual effect */
+}

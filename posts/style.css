@@ -1,0 +1,61 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    background-color: #d0e3f6; /* Light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px 0;
+}
+
+.image-gallery .row {
+    display: flex;
+    justify-content: start; /* Align images to the start of the row */
+    align-items: start;
+    flex-wrap: nowrap; /* Prevent wrapping to a new line */
+    overflow-x: auto; /* Allows horizontal scrolling if overflow */
+    margin: 0;
+    padding: 0;
+}
+
+.image-gallery .column {
+    flex: 0 0 20vw; /* Each image will take 20% of the viewport width */
+    width: 20vw; /* Fixed width based on viewport width */
+    height: 20vw; /* Height equal to the width to maintain square shape */
+    overflow: hidden;
+    position: relative;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the area without distorting ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-content, .list-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
